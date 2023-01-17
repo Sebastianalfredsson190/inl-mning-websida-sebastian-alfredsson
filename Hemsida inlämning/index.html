@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Foody</title>
+</head>
+<body>
+    <div class="footer">
+        <a class="footer-a" href="menu.html" >30% OFF</a>
+    </div>
+    <div class="header">
+        <a href="login.html"><img class="img-login" src="hej15.png"></a>
+          <a href="index.html"><img class="img-logo" src="foody-logo.jpg"></a>
+        <div><img class="img-shoppingbag" src="hej10.png"></div>
+    </div>
+    <div class="text-link-container">
+        <div class="menu-link"><a class="text-link" href="menu.html">Menu</a></div>
+        <div class="order-link"><a class="text-link" href="order.html">My orders</a></div>
+        <div class="contact-link"><a class="text-link" href="contact.html">Contact us</a></div>
+        
+    </div>
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+        <script>
+            function myFunction1() {
+              document.getElementById("myDropdown1").classList.toggle("show1");
+            }
+    
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn1')) {
+                var dropdowns1 = document.getElementsByClassName("dropdown-content1");
+                var i;
+                for (i = 0; i < dropdowns1.length; i++) {
+                  var openDropdown1 = dropdowns1[i];
+                  if (openDropdown1.classList.contains('show1')) {
+                    openDropdown1.classList.remove('show1');
+                  }
+                }
+              }
+            }
+        </script>
+       <script>
+        function myFunction2() {
+          document.getElementById("myDropdown2").classList.toggle("show2");
+        }
+
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn2')) {
+            var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns2.length; i++) {
+              var openDropdown2 = dropdowns2[i];
+              if (openDropdown2.classList.contains('show')) {
+                openDropdown2.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+    <div class="split left">
+        <div class="centered">
+        <img src="foody-logo.jpg" class="bild-2">
+        <p>Here at foody you order your favorite menu and we delivery to your doorstep</p>
+        <a href="menu.html"><button type="button" class="button-1">Order now</button></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Budget</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="menu.html">0-100$</a>
+              <a href="menu.html">100-200$</a>
+              <a href="menu.html">200-300$</a>
+            </div>
+          </div>
+          <div class="dropdown1">
+            <button onclick="myFunction1()" class="dropbtn1">Health Scale</button>
+            <div id="myDropdown1" class="dropdown-content1">
+              <a href="menu.html">Very healthy</a>
+              <a href="menu.html">Medium healthy</a>
+              <a href="menu.html">Unhealthy</a>
+            </div>
+          </div>
+          <div class="dropdown2">
+            <button onclick="myFunction2()" class="dropbtn2">Cultural food</button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="menu.html">Asian Food</a>
+              <a href="menu.html">American Food</a>
+              <a href="menu.html">Thai food</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="split right">
+        <div class="centered">
+        </div>
+    </div>
+    <div class="footer1">
+
+    </div>
+</body>
+</html>

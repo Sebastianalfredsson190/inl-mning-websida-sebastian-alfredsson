@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Foody</title>
+</head>
+<body>
+    <div class="footer">
+        <a class="footer-a" href="menu.html" >30% OFF</a>
+    </div>
+    <div class="header">
+        <a href="login.html"><img class="img-login" src="hej15.png"></a>
+        <a href="index.html"><img class="img-logo" src="foody-logo.jpg"></a>
+        <div><img class="img-shoppingbag" src="hej10.png"></div>
+    </div>
+    <div class="text-link-container">
+        <div class="menu-link"><a class="text-link" href="menu.html">Menu</a></div>
+        <div class="order-link"><a class="text-link" href="order.html">My orders</a></div>
+        <div class="contact-link"><a class="text-link" href="contact.html">Contact us</a></div>
+    </div>
+    <script type="text/javascript" src="//s.trackingmore.com/plugins/v1/buttonCurrent.js"></script>
+    <div class="first-row">
+        <div class="first-column">
+            <h1>Orders:</h1>
+            <p>Your "american bag" order will arrive in one week</p>
+            <h1>Previous orders:</h1>
+            <p>Your have ordered a asian and a thai bag previously</p>
+        </div>
+        <div class="second-column">
+            <p>Just simply put in your tracking number and press track (You will find you tracking number in the order conformation found in gmail)</p>
+                <div style="width: 100%;margin:0 auto;text-align:center;">
+                    <form role="form" action="//track.trackingmore.com" method="get" onsubmit="return false">
+                        <div class="TM_input-group">
+                            <input type="text" class="TM_my_search_input_style " id="button_tracking_number" placeholder="Tracking Number" name="button_tracking_number" value="" autocomplete="off" maxlength="100" style="border-color: #000000">
+                            <span class="TM_input-group-btn">
+                               <button class="TM_my_search_button_style " id="query" type="button" onclick="return doTrack()" style="background-color: #000000">Track</button>
+                            </span>
+                        </div>
+                        <input type="hidden" name="lang" value="en" />
+                        <input id="button_express_code" type="hidden" name="lang" value="" />
+                    </form>
+                <div id="TRNum"></div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
