@@ -55,6 +55,7 @@
     text-underline-offset: 2px;
     font-family: Helvetica Now,Helvetica,sans-serif;
 }
+/*Text linken animation vid touch*/
 .text-link:after{
     content: '';
     position: absolute;
@@ -67,7 +68,7 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-
+/*Hur text linken ska see ut efter*/
 .text-link:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
